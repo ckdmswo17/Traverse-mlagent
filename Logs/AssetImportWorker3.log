@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.34f1 (25266724e7bd) revision 2434663'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ko' Physical Memory: 130939 MB
+Built from '2022.3/staging' branch; Version is '2022.3.26f1 (ec6cd8118806) revision 15494360'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16300 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.34f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/FCSL/Unity/Traverse
+C:/Users/haneol/Documents/GitHub/Traverse-mlagent
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-65059
-Successfully changed project path to: C:/Users/FCSL/Unity/Traverse
-C:/Users/FCSL/Unity/Traverse
+7575
+Successfully changed project path to: C:/Users/haneol/Documents/GitHub/Traverse-mlagent
+C:/Users/haneol/Documents/GitHub/Traverse-mlagent
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -39,6 +39,8 @@ C:/Users/FCSL/Unity/Traverse
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
     "memorysetup-temp-allocator-size-background-worker=32768"
     "memorysetup-temp-allocator-size-job-worker=262144"
     "memorysetup-temp-allocator-size-preload-manager=33554432"
@@ -47,87 +49,101 @@ C:/Users/FCSL/Unity/Traverse
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9040] Host "[IP] 192.168.0.126 [Port] 0 [Flags] 2 [Guid] 341347894 [EditorId] 341347894 [Version] 1048832 [Id] WindowsEditor(7,ML-PC3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [34380] Host "[IP] 192.168.123.100 [Port] 0 [Flags] 2 [Guid] 3074359704 [EditorId] 3074359704 [Version] 1048832 [Id] WindowsEditor(7,HANEOL-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9040] Host "[IP] 192.168.0.126 [Port] 0 [Flags] 2 [Guid] 341347894 [EditorId] 341347894 [Version] 1048832 [Id] WindowsEditor(7,ML-PC3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [34380] Host "[IP] 192.168.123.100 [Port] 0 [Flags] 2 [Guid] 3074359704 [EditorId] 3074359704 [Version] 1048832 [Id] WindowsEditor(7,HANEOL-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 75.44 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.59 ms.
-Initialize engine version: 2021.3.34f1 (25266724e7bd)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/FCSL/Unity/Traverse/Assets
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 43.91 ms, found 12 plugins.
+Preloading 3 native plugins for Editor in 4.25 ms.
+Initialize engine version: 2022.3.26f1 (ec6cd8118806)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/haneol/Documents/GitHub/Traverse-mlagent/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3090 (ID=0x2204)
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
     Vendor:   NVIDIA
-    VRAM:     24340 MB
-    Driver:   31.0.15.3640
+    VRAM:     5980 MB
+    Driver:   31.0.15.3623
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005383 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.026960 seconds.
+- Loaded All Assemblies, in  0.583 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 211 ms
-Refreshing native plugins compatible for Editor in 67.83 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Android Extension - Scanning For ADB Devices 437 ms
 Mono: successfully reloaded assembly
-- Completed reload, in  0.850 seconds
-Domain Reload Profiling:
-	ReloadAssembly (850ms)
-		BeginReloadAssembly (84ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (0ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (681ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (106ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (512ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (322ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (68ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (74ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
-				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (0ms)
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.005750 seconds.
+- Finished resetting the current domain, in  0.906 seconds
+Domain Reload Profiling: 1484ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (114ms)
+	LoadAllAssembliesAndSetupDomain (227ms)
+		LoadAssemblies (157ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (223ms)
+			TypeCache.Refresh (221ms)
+				TypeCache.ScanAssembly (196ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (907ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (821ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (585ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (157ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.200 seconds
+Refreshing native plugins compatible for Editor in 32.91 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\FCSL\Unity\Traverse\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\FCSL\Unity\Traverse\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:267 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <7e05db41a20b45108859fa03b97088d4>:0 
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
    --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <7e05db41a20b45108859fa03b97088d4>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <7e05db41a20b45108859fa03b97088d4>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <0a81bd77f3334bdfa5d31008229edcac>:0 
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <8a5cd56eb1bb450ba65aa5485166bfb3>:0 
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -135,59 +151,367 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.364 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1364ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1162ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (253ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (746ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (612ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.013 seconds
+Domain Reload Profiling: 2201ms
+	BeginReloadAssembly (236ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (804ms)
+		LoadAssemblies (580ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (372ms)
+			TypeCache.Refresh (295ms)
+				TypeCache.ScanAssembly (262ms)
+			ScanForSourceGeneratedMonoScriptInfo (48ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1014ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (749ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (507ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.03 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 3544 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (46.5 KB). Loaded Objects now: 4006.
-Memory consumption went from 138.4 MB to 138.3 MB.
-Total: 3.198200 ms (FindLiveObjects: 0.314100 ms CreateObjectMapping: 0.268600 ms MarkObjects: 2.540600 ms  DeleteObjects: 0.073600 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 70.33 ms, found 12 plugins.
+Preloading 3 native plugins for Editor in 0.47 ms.
+Unloading 5009 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (77.0 KB). Loaded Objects now: 5444.
+Memory consumption went from 190.3 MB to 190.2 MB.
+Total: 71.456800 ms (FindLiveObjects: 0.516900 ms CreateObjectMapping: 0.635200 ms MarkObjects: 31.322200 ms  DeleteObjects: 38.980900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 45590.210145 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_W_Haenggak_Roof_A_001.prefab
+  artifactKey: Guid(ba658983b7f810d4097b9b1f8a2de155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_W_Haenggak_Roof_A_001.prefab using Guid(ba658983b7f810d4097b9b1f8a2de155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f121d32953ffc517cec413bf13eea5') in 0.767274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.003795 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_S_Haenggak_Wall_D_001.prefab
+  artifactKey: Guid(0b76ee69843d8a34bb4b0e76aa324bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_S_Haenggak_Wall_D_001.prefab using Guid(0b76ee69843d8a34bb4b0e76aa324bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68d25dbfd3ce24ddf0ae9b02beceb46') in 0.652775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_O_Haenggak_Wall_A_001.prefab
+  artifactKey: Guid(081e9061b94e9304f86173ed3683ee61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_O_Haenggak_Wall_A_001.prefab using Guid(081e9061b94e9304f86173ed3683ee61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6280b7f9dba6ffaaaccc8531616e680') in 0.602278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_W_Haenggak_Wall_A_001.prefab
+  artifactKey: Guid(77e9f6389fe3ea74384c70ca7ebe33dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_W_Haenggak_Wall_A_001.prefab using Guid(77e9f6389fe3ea74384c70ca7ebe33dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd995915c3cba41e1556afa948e285eb3') in 0.716707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Anchae_Joo_O_001.prefab
+  artifactKey: Guid(fbbd9348909c7f7499c9e900d1566bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Anchae_Joo_O_001.prefab using Guid(fbbd9348909c7f7499c9e900d1566bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502139936c5409d10df24ed51b9cb8e8') in 0.239520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Sooinmoon_Door_A_001.prefab
+  artifactKey: Guid(0c72b123ea18e0742ac2b6f82d650435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Sooinmoon_Door_A_001.prefab using Guid(0c72b123ea18e0742ac2b6f82d650435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22fe67759777381eb6eeec716c70e9a') in 0.236469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Anchae_Joo_J_001.prefab
+  artifactKey: Guid(b627dc9c61156fb4ca16917bb55a73fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Anchae_Joo_J_001.prefab using Guid(b627dc9c61156fb4ca16917bb55a73fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5c3cd3aa0c654c490caac391eb5cc1') in 0.170571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Sarangchae_Floor_C_001.prefab
+  artifactKey: Guid(90a93fd21ac11ab48823007731fd915e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Sarangchae_Floor_C_001.prefab using Guid(90a93fd21ac11ab48823007731fd915e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac885523b43bace929d74ffe4a18829') in 0.498819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_S_Haenggak_Maru_A_001.prefab
+  artifactKey: Guid(46abcccfa066383449e8fa5792e27fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_S_Haenggak_Maru_A_001.prefab using Guid(46abcccfa066383449e8fa5792e27fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfaa15d725317d4f9720383203470a0') in 0.571034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_O_Haenggak_Wall_E_001.prefab
+  artifactKey: Guid(5c4c4e5a4c15ef042aa73f1b1a0b23a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_O_Haenggak_Wall_E_001.prefab using Guid(5c4c4e5a4c15ef042aa73f1b1a0b23a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c4dde958c6b041e8b7b974631b7c5e') in 0.593794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.036329 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Anchae_Step_A_001.prefab
+  artifactKey: Guid(855b65aa8c3d2554aa522791b000318d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Anchae_Step_A_001.prefab using Guid(855b65aa8c3d2554aa522791b000318d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2868fccb12907f816201143569bf1c1') in 0.149420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Sarangchae_Floor_B_001.prefab
+  artifactKey: Guid(d4379a26e9d723548bf5077d25e2508c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Sarangchae_Floor_B_001.prefab using Guid(d4379a26e9d723548bf5077d25e2508c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e294276e61fc81b8e0d2cc1a84134bd') in 0.552774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_W_Haenggak_Wall_G_001.prefab
+  artifactKey: Guid(cae35eef002adc64f9c108aa5809e2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_W_Haenggak_Wall_G_001.prefab using Guid(cae35eef002adc64f9c108aa5809e2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7141d8bfbb23c770b176dfa41da85764') in 0.518081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.004083 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_O_Haenggak_Win_B_001.prefab
+  artifactKey: Guid(4311c736953503744ae087ab8f8c3a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_O_Haenggak_Win_B_001.prefab using Guid(4311c736953503744ae087ab8f8c3a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8592f9356d21f6a8c2af5dc399e877d0') in 0.294060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_W_Haenggak_Wall_E_001.prefab
+  artifactKey: Guid(c54643f49016c4a41bd0fe5c3bf83c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_W_Haenggak_Wall_E_001.prefab using Guid(c54643f49016c4a41bd0fe5c3bf83c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d713f88200074436a8790991afaa85') in 0.659664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.002499 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Sarangchae_Hyunpan_A_001.prefab
+  artifactKey: Guid(5bd0cc9063521dd40a9c264260bb4b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Sarangchae_Hyunpan_A_001.prefab using Guid(5bd0cc9063521dd40a9c264260bb4b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da02270be3bff59685a9af72ce2dfe6c') in 0.148822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_S_Haenggak_Floor_A_001.prefab
+  artifactKey: Guid(d30a7ae3bb055364bb71fdb63d69c326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_S_Haenggak_Floor_A_001.prefab using Guid(d30a7ae3bb055364bb71fdb63d69c326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efae27702bb750b517e37a3c3de59dd') in 0.580668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_S_Haenggak_Pillar_A_001.prefab
+  artifactKey: Guid(a6e22fbbfcc985342b5181b32d82fa4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_S_Haenggak_Pillar_A_001.prefab using Guid(a6e22fbbfcc985342b5181b32d82fa4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1be4902461ef685e86617ea1cfa836') in 0.550997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_S_Haenggak_Floor_B_001.prefab
+  artifactKey: Guid(8e1fb8673743e764bb193871ba45a5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_S_Haenggak_Floor_B_001.prefab using Guid(8e1fb8673743e764bb193871ba45a5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9959201e0f28013092698c23608ea9a3') in 0.591527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.014540 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Sarangchae_Joo_J_001.prefab
+  artifactKey: Guid(f8b1b938e740ede428dbe2ab2fcae34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Sarangchae_Joo_J_001.prefab using Guid(f8b1b938e740ede428dbe2ab2fcae34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c44bc599e64403821176f45535db48d') in 0.370310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Sarangchae_Win_A_001.prefab
+  artifactKey: Guid(c6301087af6ae424e99dcbd4b866f283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Sarangchae_Win_A_001.prefab using Guid(c6301087af6ae424e99dcbd4b866f283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edeb27561acbb3e804132827126c6e97') in 0.299558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_W_Haenggak_floor_A_001.prefab
+  artifactKey: Guid(ad73d3b16da833249a59c7e28d61a87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_W_Haenggak_floor_A_001.prefab using Guid(ad73d3b16da833249a59c7e28d61a87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa7a292fda9db78117fb0938ac9f7dd') in 0.477447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Anchae_Kidan_A_001.prefab
+  artifactKey: Guid(edde80081237cdb46b294b79dc20fa07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Anchae_Kidan_A_001.prefab using Guid(edde80081237cdb46b294b79dc20fa07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c354582877d0cbb3a1b44a96c3a39db6') in 0.433859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_horse_Wall_A_001.prefab
+  artifactKey: Guid(2a15cd7c0f2cced4f805d3a1c7593969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_horse_Wall_A_001.prefab using Guid(2a15cd7c0f2cced4f805d3a1c7593969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc53b31d7efe9c4bdb01a309467ba96') in 0.485993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Sarangchae_Joo_G_001.prefab
+  artifactKey: Guid(ad8074e5b52ebe24b8d099998cfa3675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Sarangchae_Joo_G_001.prefab using Guid(ad8074e5b52ebe24b8d099998cfa3675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9a85e3d67f446ccc8baca9b390779a') in 0.296631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000880 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Sarangchae_Maru_A_001.prefab
+  artifactKey: Guid(2f05aa31c295ce644b3abfe242843888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Sarangchae_Maru_A_001.prefab using Guid(2f05aa31c295ce644b3abfe242843888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524ea0e5f3d4451c4b3c0f2f92deafa9') in 0.308868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.004802 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_O_Haenggak_Roof_A_001.prefab
+  artifactKey: Guid(7d1107d0f27a7144ba484c508543ec15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_O_Haenggak_Roof_A_001.prefab using Guid(7d1107d0f27a7144ba484c508543ec15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0644151cfe30c54d23f0fdde5411276e') in 0.553952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_O_Haenggak_Win_C_001.prefab
+  artifactKey: Guid(0d077fdc8bb70ab45a70b8d6318db161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_O_Haenggak_Win_C_001.prefab using Guid(0d077fdc8bb70ab45a70b8d6318db161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b5e8d8791851662f8aa60e3c2fdbe4') in 0.453872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_S_Haenggak_Wall_B_001.prefab
+  artifactKey: Guid(62ee1024435c68b4899370dcb4a317ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_S_Haenggak_Wall_B_001.prefab using Guid(62ee1024435c68b4899370dcb4a317ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7945b66fc82a9d513ef22b6aa7443d9d') in 0.521823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.004935 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_O_Haenggak_Win_A_001.prefab
+  artifactKey: Guid(d39f5cc5656a1f943a0c81b535e72c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_O_Haenggak_Win_A_001.prefab using Guid(d39f5cc5656a1f943a0c81b535e72c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77117083565282dfff6493ccc1e8db0b') in 0.306003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.004999 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_W_Haenggak_Wall_C_001.prefab
+  artifactKey: Guid(89822fcc555184e4ebbf7c0dcf0873c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_W_Haenggak_Wall_C_001.prefab using Guid(89822fcc555184e4ebbf7c0dcf0873c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bcb2b629a638c3d91223ccc97df0c8') in 0.432604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.029023 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_horse_Wall_B_001.prefab
+  artifactKey: Guid(55660fb80113160488c763b76d5e5192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_horse_Wall_B_001.prefab using Guid(55660fb80113160488c763b76d5e5192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fbffcdf67215e7b9e1847b304abb1a') in 0.482520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.040371 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_W_Haenggak_Wall_D_001.prefab
+  artifactKey: Guid(3135490773177a74ea3e8010da2e9aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_W_Haenggak_Wall_D_001.prefab using Guid(3135490773177a74ea3e8010da2e9aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a3440e59fb2b3a0c55464a91162cde') in 0.422776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.001049 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Sarangchae_Door_A_001.prefab
+  artifactKey: Guid(43c97f1f883951f45ae383525a764b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Sarangchae_Door_A_001.prefab using Guid(43c97f1f883951f45ae383525a764b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1eda58b15cfeb7df30f5afe5140a375') in 0.601243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_S_Haenggak_Roof_C_001.prefab
+  artifactKey: Guid(23bc06260f9e4ef4bb1312dc2d91abd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_S_Haenggak_Roof_C_001.prefab using Guid(23bc06260f9e4ef4bb1312dc2d91abd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7786f59dfdbf90aea819fcdf8af34d59') in 0.858684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.009360 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_O_Haenggak_Win_D_001.prefab
+  artifactKey: Guid(0e2fecfcc9b41224badbf64357efae4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_O_Haenggak_Win_D_001.prefab using Guid(0e2fecfcc9b41224badbf64357efae4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b416f4d3af1b9325299df80ed51d8054') in 0.684867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.001400 seconds.
+  path: Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Anchae_Maru_B_001.prefab
+  artifactKey: Guid(47dd5dc4b7614a64d9a40fc5dcee8761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yeongyeongdang/Prefabs/SM_Yeonkyung_Anchae_Maru_B_001.prefab using Guid(47dd5dc4b7614a64d9a40fc5dcee8761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b552be23994212c41e708b8c198f20') in 0.991767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
