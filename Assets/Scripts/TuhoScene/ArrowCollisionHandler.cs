@@ -24,23 +24,17 @@ public class ArrowCollisionHandler : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Collision detected with: " + other.gameObject.name); // 디버그 로그 추가
+        
+        if (other.gameObject.name == "TargetPoint")
         {
-            if (other.gameObject.name == "TargetPoint")
-            {
-                GameController.instance.throwArrow();
-                GameController.instance.GetScore();
-            }
+            GameController.instance.ThrowArrow();
+            GameController.instance.GetScore();
+        }
 
-            else if (other.gameObject.name == "Plane")
-            {
-                GameController.instance.throwArrow();
-                gameObject.SetActive(false);
-            }
-
-            else 
-            {
-                //
-            }
+        else if (other.gameObject.name == "Plane")
+        {
+            GameController.instance.ThrowArrow();
         }
     }
 }

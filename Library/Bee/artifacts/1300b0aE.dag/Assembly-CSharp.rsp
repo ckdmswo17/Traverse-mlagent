@@ -433,6 +433,7 @@
 "Assets/Scripts/shotWoodStickCollisionHandler.cs"
 "Assets/Scripts/TuhoScene/ArrowCollisionHandler.cs"
 "Assets/Scripts/TuhoScene/GameController.cs"
+"Assets/Scripts/TuhoScene/GameUIManager.cs"
 "Assets/Scripts/TuhoScene/Throwable.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
