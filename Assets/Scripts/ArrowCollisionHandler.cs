@@ -1,3 +1,40 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4c12b3f326e93d5e162e25397338a49d165c4077be3130f59d13f860c93dad79
-size 797
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ArrowCollisionHandler : MonoBehaviour
+{
+
+    void Awake()
+    {
+        
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Collision detected with: " + other.gameObject.name); // 디버그 로그 추가
+        
+        if (other.gameObject.name == "TargetPoint")
+        {
+            GameController.instance.ThrowArrow();
+            GameController.instance.GetScore();
+        }
+
+        else if (other.gameObject.name == "Plane")
+        {
+            GameController.instance.ThrowArrow();
+        }
+    }
+}

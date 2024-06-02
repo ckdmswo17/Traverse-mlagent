@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:60d4b553c44199303865759187526e8c53e2c5ca70dde663a4c97d83571c4404
-size 322
+Interaction SDK is a library of components that adds controller and hand interactions and body pose detection to your experiences. This package integrates the Core package components with the Utilities package (OVRPlugin) so Interaction SDK can use data from your headset about your hands, controllers, and body position.

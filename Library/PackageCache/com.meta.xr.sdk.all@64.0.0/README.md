@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:90a535f1a3e1a130381e12cc769cfa50be4dea29fb9610323413234ef08903da
-size 150
+Meta XR All-in-One SDK is a wrapper package that depends on the latest version of all Meta XR SDKs, making it easy to get started with VR development.

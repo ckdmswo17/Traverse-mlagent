@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5f4f808c5f0a4d4aa4b1a45fd63153628b440c2288613ac448ba9d729c1dfc52
-size 376
+# Animation Rigging
+
+The Animation Rigging package exposes a set of predefined constraints and tools to manually build a control rig hierarchy. At runtime, rig constraints are converted to a list of IAnimationJobs which are appended to the Animator playable evaluation.
+
+Detailed information on how best to use this package can be found [**here**](./Documentation~/index.md).

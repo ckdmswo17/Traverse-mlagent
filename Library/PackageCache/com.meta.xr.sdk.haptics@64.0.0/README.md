@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6c3a430e163ed0a5528d99dd6b5dc5437e4d6e7ed69ae12966cfcbb7e05a2a18
-size 764
+# Meta XR Haptics SDK for Unity
+Meta XR Haptics SDK for Unity provides a high-level, media-based API for playing haptic clips authored in Haptics Studio on Quest controllers. Playing back a haptic clip causes the controller to vibrate according to the vibration pattern stored in the clip.
+
+The Haptics SDK provides a unified haptics API, regardless of the type of Quest controllers that are connected. The SDK detects the controller at runtime and optimizes the haptic pattern, maximizing the controller’s capabilities. This feature ensures your haptic clips are both backward and forward compatible with Quest devices.
+
+To get started, see the documentation on designing and integrating haptics:
+https://developer.oculus.com/documentation/unity/unity-haptics/

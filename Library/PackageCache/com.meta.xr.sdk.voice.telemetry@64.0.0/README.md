@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8a2bb69cedd653c22e0a57a3fe3150f5a9a71de71bfefd71230d4333150dd814
-size 270
+# Telemetry for Voice SDK
+
+The telemetry package is a dependency of Voice SDK provides insights into the operation of the VoiceSDK and its related packages so that we can improve the experience for everyone.
+
+You may opt-in or opt-out of telemetry when using Voice SDK.

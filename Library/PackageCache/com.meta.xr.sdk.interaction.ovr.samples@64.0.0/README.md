@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:aeb4717baf8c25d85707740a3d1a5465b67038c096bacc01d123045011ca5b84
-size 272
+Interaction SDK is a library of components that adds controller and hand interactions and body pose detection to your experiences. This package contains sample scenes that use the OVR rig and data sources to demonstrate interactions like grab, locomotion, poke, and more.

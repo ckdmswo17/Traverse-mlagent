@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a36a34239f642132f3f2f2d3a587c2987826270453cded54966b4d59ef47b5aa
-size 415
+# Documentation
+
+The latest documentation for Mixed Reality Utility Kit can be found here:
+
+https://developer.oculus.com/documentation/unity/unity-mr-utility-kit-overview/
+
+# Licenses
+The Meta License applies to the SDK and supporting material. The MIT License applies to only certain, clearly marked documents. If an individual file does not indicate which license it is subject to, then the Meta License applies.

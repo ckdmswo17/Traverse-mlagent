@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2f42263c4cd2c56114a96428c4e0c66f1972b93e7099d133aaf2b44a59194c7c
-size 343
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Throwable : MonoBehaviour
+{
+    public float velocity = 1000f;
+
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+}

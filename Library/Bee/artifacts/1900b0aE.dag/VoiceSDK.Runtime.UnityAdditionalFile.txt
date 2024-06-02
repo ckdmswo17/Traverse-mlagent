@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:53137607abf0d9f2e0dd438ce24b3897e5aca21d2197644e763a2fb3308103f8
-size 28
+D:\Traverse_Jachigi\Traverse
